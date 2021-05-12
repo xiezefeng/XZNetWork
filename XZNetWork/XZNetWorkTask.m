@@ -6,7 +6,7 @@
 //
 
 #import "XZNetWorkTask.h"
-#import "AFNetworking/AFNetworking.h"
+#import <AFNetworking/AFNetworking.h>
 typedef void (^XFailure)(XZNetWorkTask *_Nullable task,NSError * _Nullable error);
 typedef void (^XSuccess)(XZNetWorkTask *_Nullable task,id _Nullable responseObject);
 typedef void (^XUploadProgress)(NSProgress *uploadProgress);

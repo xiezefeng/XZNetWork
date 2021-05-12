@@ -34,7 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)new UNAVAILABLE_ATTRIBUTE;
 
-- (instancetype)init UNAVAILABLE_ATTRIBUTE;
+//- (instancetype)init UNAVAILABLE_ATTRIBUTE;
 @end
 
 NS_ASSUME_NONNULL_END
