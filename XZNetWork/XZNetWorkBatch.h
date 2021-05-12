@@ -30,7 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)new UNAVAILABLE_ATTRIBUTE;
 
-- (instancetype)init UNAVAILABLE_ATTRIBUTE;
+//- (instancetype)init UNAVAILABLE_ATTRIBUTE;
 + (XZNetWorkBatch *)netWorkBatchTaskConfig:(XZNetWorkBatchConfig *)confing;
 
 @end
