@@ -68,8 +68,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)new UNAVAILABLE_ATTRIBUTE;
 
-//- (instancetype)init UNAVAILABLE_ATTRIBUTE;
-
 + (XZNetWorkTask *)netWorkTask:(XZNetWorkTaskConfig *)confing;
 
 - (XZNetWorkTask *)netWorkTaskWithProgress:(nullable void (^)(NSProgress *uploadProgress))uploadProgress

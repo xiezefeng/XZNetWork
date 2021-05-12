@@ -33,8 +33,6 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - initialize
 
 + (instancetype)new UNAVAILABLE_ATTRIBUTE;
-
-//- (instancetype)init UNAVAILABLE_ATTRIBUTE;
 @end
 
 NS_ASSUME_NONNULL_END
